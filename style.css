@@ -1,0 +1,184 @@
+@font-face {
+    font-family: myfont;
+    src: url(assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+html{
+    font-family: myfont;
+    box-sizing: border-box; 
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+
+    
+}
+
+main{
+    margin: auto;
+    display: flex;  
+    
+    
+}
+.one {
+    width: 50%; /*for two equal section*/
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%)); /*new about gradiant*/
+    border-radius: 5%;
+}
+.two{
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    border-bottom-right-radius: 5%;
+    border-top-right-radius: 5%;
+    box-shadow: 5px 10px 18px #e5e8f0;
+    
+    
+}
+.circle{
+background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+border-radius: 50%;
+width: 150px;
+height: 150px;
+margin: auto;
+text-align: center;
+
+}
+.percent{
+ color: hsl(221, 100%, 96%);
+ font-weight: 800;
+ font-size: 50px;
+ padding-top: 30px;
+}
+.of{
+    color: hsl(241, 100%, 89%);
+}
+.great{
+    color: hsl(221, 100%, 96%);
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+.p{
+    color: hsl(241, 100%, 89%);
+    text-align: center;
+    font-size: 15px;
+    padding-right: 100px;
+    padding-left: 100px;
+    
+}
+.result{
+    text-align: center;
+    color: hsl(241, 100%, 89%);
+    font-weight: 500;
+    font-size: 18px;
+    margin: 25px;
+}
+.pic1{
+    background-color: hsl(6,100%,98%);
+    margin: auto;
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    
+}
+
+.reaction{
+    color: hsl(0, 100%, 67%);
+    
+    
+}
+.memory{
+    color: hsl(39, 100%, 56%);
+}
+.verbal{
+    color: hsl(166, 100%, 37%);
+}
+.visual{
+    color: hsl(234, 85%, 45%);
+}
+
+.pic2{
+    background-color: hsl(41.5, 100%, 97%);
+    margin: auto;
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.pic3{
+    background-color: hsl(173.3, 53%, 97%);
+    margin: auto;
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.pic4{
+    background-color: hsl(240, 71%, 97%);
+    margin: auto;
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.summary{
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+img {
+    margin: 5px;
+
+}
+.hundred{
+    color: gray;
+    font-weight: 600;
+    margin-left: 160px;
+    margin-right: 10px;
+}
+.percent2{
+    color: black;
+}
+button{
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: 30px;
+    border-radius: 30px;
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: myfont;
+    margin: 30px;
+}
+@media screen and (max-width:375px){
+    main{
+        flex-direction: column;
+        
+        
+    }
+    .one{
+        margin-top: 0;
+        border-top-left-radius: 0%;
+        border-top-right-radius: 0%;
+        width: 100vw;
+        
+    }
+    .two{
+        width: fit-content;
+        
+    }
+}
